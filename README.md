@@ -43,15 +43,22 @@ Will be added later
 
 **PCB design** 
 
-A photo will be added later 
+**Top layer**
+
+<img width="1153" height="350" alt="image" src="https://github.com/user-attachments/assets/817e6127-29b9-49c5-9b19-90456494086a" />
+
+**Bottom layer**
+
+<img width="1150" height="335" alt="image" src="https://github.com/user-attachments/assets/75fa28cd-67b1-4655-b08c-d1d14a75430e" />
 
 **Schematics** 
 
-A photo will be added later 
+<img width="1197" height="622" alt="image" src="https://github.com/user-attachments/assets/b6d12577-b07a-41b3-a56d-41b0f73b666b" />
+
 
 **3D rendered PCB design** 
 
-A photo will be added later
+<img width="1197" height="342" alt="image" src="https://github.com/user-attachments/assets/e4ebf039-d8b8-4093-b85f-05c955345c3e" />
 
 **Physical picture**
 
