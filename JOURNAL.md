@@ -6,7 +6,7 @@
 > [!NOTE]
 > This devlog is mirrored from [Half Life](https://halflife.hackclub.com) ([open the project](https://halflife.hackclub.com/projects/heswkz1td9xrblinorgsq0xr)). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> This is a custom 128kb SRAM module designed using an M.2 form factor. Built around an asynchronous SRAM chip, the project would be focusing on computer memory architecture, digital electronics and custom PCB development. The module is designed to communicate with an external host controller through a compatible interface.
+> This is a custom 128kb SRAM module designed using an M.2 form factor. Built around an asynchronous SRAM chip, the project would be focusing on computer memory architecture, digital electronics and custom PCB development. The module is designed to communicate with an external host controller through a compatible interface. This is also built with an adapter in order to allow it to connect to microcontrollers on big projects.
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
