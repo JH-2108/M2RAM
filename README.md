@@ -33,13 +33,53 @@ The host controller communicates with the memory through its address, data and c
 
 The controller selects a memory address and performs read or write operations using the SRAM control interface. 
 
-An external M.2 breakout adapter may be used during development and testing. A custom adapter PCB is not a mandatory part of the project. 
+An external M.2 breakout adapter can be used to simplify development and testing. 
+
+# M2RAM Breakout Adapter
+
+A separate breakout adapter PCB was designed as a companion to the M2RAM memory module. 
+
+The adapter provides a female M.2 M-key socket that accepts the M2RAM module through its gold edge contacts. 
+
+Instead of requiring a host controller to connect directly to the M.2 connector, the adapter exposes the module's electrical interface through two rows of 2.54mm through-hole header connections. 
+
+# Adapter features
+- Female M.2 M-key socket for connecting the M2RAM module.
+- 8 pin data interface exposing DQ0-DQ7
+- 8 pin control and power interface
+- 3.3V power and GND connections
+- Decoupling capacitors for supply stability
+- Through hole header connections for convenient wiring to external controllers.
+
+# Adapter interface
+|Header |pin|Signal|
+|---|---|---|
+|J2 | 1 | DQ0|
+|J2 | 2 | DQ1|
+|J2 | 3 | DQ2|
+|J2 | 4 | DQ3|
+|J2 | 5 | DQ4|
+|J2 | 6 | DQ5|
+|J2 | 7 | DQ6|
+|J2 | 8 | DQ7|
+|J3 | 1 | SRCLR|
+|J3 | 2 | SRCLK|
+|J3 | 3 | RCLK|
+|J3 | 4 | U2SER|
+|J3 | 5 | OE|
+|J3 | 6 | +3V3|
+|J3 | 7 | GND|
+|J3 | 8 | GND|
+
+The adapter does not contain additional SRAM or shift registers. It simple exposes the existing M2RAM module interface to external hardware. 
+
+Note: The adapter is an optional development accessory. The M2RAM module can be used with a compatible custom host interface without this particular adapter. 
 
 # Bill of Materials
 
 Will be added later 
 
-# Pictures of the project 
+# Pictures of the M2RAM
 
 **PCB design** 
 
@@ -63,4 +103,24 @@ Will be added later
 **Physical picture**
 
 A photo will be added later
+
+# Pictures of the M2RAM adapter
+
+**PCB Design** 
+
+**Top layer**
+
+<img width="336" height="700" alt="image" src="https://github.com/user-attachments/assets/b6ec17b8-0479-42c5-838c-33b3fa6055d1" />
+
+**Bottom layer**
+
+<img width="332" height="702" alt="image" src="https://github.com/user-attachments/assets/fea9e641-6e43-464f-96b4-f14ea9f04dd1" />
+
+**Schematics**
+
+<img width="1077" height="682" alt="image" src="https://github.com/user-attachments/assets/1b4bf78d-a64e-4d56-8c55-bbd61ed68501" />
+
+**3D rendered PCB**
+
+<img width="300" height="625" alt="image" src="https://github.com/user-attachments/assets/a03fba8e-eda8-4a02-8b19-6fa12e5525db" />
 
