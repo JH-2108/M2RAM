@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 5 | Tier 1 | 5.77h | 3 |
+| Week 5 | Tier 1 | 6.02h | 3 |
 
 ## Contents
 
@@ -40,11 +40,11 @@ my bom.csv, it is not yet fully completed because I haven't gotten the shipping 
 
 ### 2026-11-04: **PCB Design**
 
-**2.52h**
+**2.77h**
 
 **PCB Design**
 
-In order to create the SRAM chip, I hopped on KiCAD and designed the entire schematic and route the entire PCB design, and it looked pretty cool, with some parts that I needed to download the CAD for, some designing of the PCB here and there, and some problem fixing for the schematics, it added on an unrecorded 30 minutes for me, which i pause the timelapse in between and worked on my project.
+In order to create the SRAM chip, I hopped on KiCAD and designed the entire schematic and route the entire PCB design, and it looked pretty cool, with some parts that I needed to download the CAD for, some designing of the PCB here and there, and some problem fixing for the schematics, it added on an unrecorded 45 minutes for me, which i pause the timelapse in between and worked on my project.
 
 ![Screenshot 2026-11-03 170604](https://halflife.hackclub-assets.com/sessions/vxL2pduJ8aoZ6ir0BeAE8MP0uXIpb6g2/f9be2b5b602dbd43e54f9bccbdf77f7649fe8f05b7e84d5d2d399a983712b4a8.png)
 
